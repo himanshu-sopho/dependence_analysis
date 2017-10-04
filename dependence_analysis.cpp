@@ -42,7 +42,7 @@ namespace
       			Unknown
     			};
 
-   			static const char *const DepTypeStr[];
+/*   			static const char *const DepTypeStr[];
 			typedef PointerIntPair<const Instruction *, 2, DepType> InstTypePair;
     			typedef std::pair<InstTypePair, const BasicBlock *> Dep;
 			typedef SmallSetVector<Dep, 4> DepSet;
@@ -112,7 +112,7 @@ namespace
 						if (DepBB) 
 						{
         						OS << " in block ";
-        						DepBB->printAsOperand(O, /*PrintType=*/false, M);
+        						DepBB->printAsOperand(O,false, M);
       						}
       						if (DepInst) 
 						{
@@ -125,7 +125,7 @@ namespace
     					errs() << "\n\n";
   				}
 
-		  }
+		  }*/
 
 			
 		errs () << "\n\n\n*******************************PRINTING ANALYSIS USING LOOPACCESSANALYSIS.H FILE*******************************\n\n\n";
